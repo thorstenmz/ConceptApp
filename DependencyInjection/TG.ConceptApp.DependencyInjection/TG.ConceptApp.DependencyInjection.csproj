@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\Application\TG.ConceptApp.Application.Foundation.Interfaces\TG.ConceptApp.Application.Foundation.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Application\Application\TG.ConceptApp.Application.QueryModel\TG.ConceptApp.Application.QueryModel.csproj" />
+    <ProjectReference Include="..\..\Application\Application\TG.ConceptApp.Application\TG.ConceptApp.Application.csproj" />
+    <ProjectReference Include="..\..\Application\ConsoleApp\TG.ConceptApp.Application.ConsoleApp.Interfaces\TG.ConceptApp.Application.ConsoleApp.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Development\TG.ConceptApp.Development\TG.ConceptApp.Development.csproj" />
+    <ProjectReference Include="..\..\Persistence\TG.ConceptApp.Persistence.Database\TG.ConceptApp.Persistence.Database.csproj" />
+    <ProjectReference Include="..\..\Persistence\TG.ConceptApp.Persistence.QueryDatabase\TG.ConceptApp.Persistence.QueryDatabase.csproj" />
+    <ProjectReference Include="..\..\Presentation\ConsoleUI\TG.ConceptApp.Presentation.ConsoleUI\TG.ConceptApp.Presentation.ConsoleUI.csproj" />
+    <ProjectReference Include="..\..\Shared\TG.ConceptApp.Shared\TG.ConceptApp.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

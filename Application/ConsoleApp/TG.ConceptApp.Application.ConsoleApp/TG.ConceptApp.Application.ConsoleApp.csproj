@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\DependencyInjection\TG.ConceptApp.DependencyInjection\TG.ConceptApp.DependencyInjection.csproj" />
+    <ProjectReference Include="..\..\Application\TG.ConceptApp.Application.Foundation.Interfaces\TG.ConceptApp.Application.Foundation.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Application\TG.ConceptApp.Application.QueryModel.Interfaces\TG.ConceptApp.Application.QueryModel.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Application\TG.ConceptApp.Application\TG.ConceptApp.Application.csproj" />
+    <ProjectReference Include="..\TG.ConceptApp.Application.ConsoleApp.Interfaces\TG.ConceptApp.Application.ConsoleApp.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

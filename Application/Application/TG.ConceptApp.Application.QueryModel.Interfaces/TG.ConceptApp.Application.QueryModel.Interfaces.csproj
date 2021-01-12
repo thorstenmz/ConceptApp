@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TG.ConceptApp.Application.QueryModel.Entities\TG.ConceptApp.Application.QueryModel.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\Application\TG.ConceptApp.Application.Foundation.Interfaces\TG.ConceptApp.Application.Foundation.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Application\Application\TG.ConceptApp.Application.Foundation\TG.ConceptApp.Application.Foundation.csproj" />
+    <ProjectReference Include="..\..\Application\Application\TG.ConceptApp.Application.Interfaces\TG.ConceptApp.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Domain\TG.ConceptApp.Domain.Concept\TG.ConceptApp.Domain.Concept.csproj" />
+  </ItemGroup>
+
+</Project>

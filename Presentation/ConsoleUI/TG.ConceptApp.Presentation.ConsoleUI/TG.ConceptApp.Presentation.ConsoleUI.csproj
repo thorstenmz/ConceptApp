@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Application\ConsoleApp\TG.ConceptApp.Application.ConsoleApp.Interfaces\TG.ConceptApp.Application.ConsoleApp.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
